@@ -1,0 +1,19 @@
+{
+  "name": "tone-chorus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "build": "webpack --watch ./src/index.js ./build/index.bundle.js",
+    "start": "node server.js"
+  },
+  "author": "donghyeon kim",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.4",
+    "three": "^0.86.0",
+    "tone": "^0.10.0",
+    "webpack": "^3.5.1"
+  }
+}
